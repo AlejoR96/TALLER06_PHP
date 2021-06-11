@@ -8,7 +8,7 @@
             <th scope="col">id</th>
             <th scope="col">Nombre</th>
             <th scope="col">Apellido</th>
-            <th scope="col">Correo</th> 5856
+            <th scope="col">Correo</th> 
         </tr>
     </thead>
 

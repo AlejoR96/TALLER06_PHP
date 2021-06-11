@@ -6,19 +6,19 @@
     <div class="col-12 col-md-6 col-lg-3 bg-light rounded rounded p-2 m-3 m-lg-0">
         <!--Submenu de la vista nosotros-->
         <ul class="nav flex-row flex-md-column flex-lg-column">
-            <li class="nav-item">
+            <li class="nav-item styleLi">
                 <a class="nav-link active" aria-current="page" href="../controllers/controllerRutas.php?opc=1&subOpc=0">Misión</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item styleLi">
                 <a class="nav-link" href="../controllers/controllerRutas.php?opc=1&subOpc=1">Visión</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item styleLi">
                 <a class="nav-link" href="../controllers/controllerRutas.php?opc=1&subOpc=2">Organigrama</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item styleLi">
                 <a class="nav-link" href="../controllers/controllerRutas.php?opc=1&subOpc=3">Formulario</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item styleLi">
                 <a class="nav-link" href="../controllers/controllerRutas.php?opc=1&subOpc=4">Usuarios Registrados</a>
             </li>
         </ul>
