@@ -29,6 +29,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="../controllers/controllerRutas.php?opc=2">Productos</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../controllers/controllerRutas.php?opc=3">Crud Datos</a>
+                        </li>
                     </ul>
                 </div>
             </div>

@@ -1,5 +1,5 @@
 <!--Vista Home principal-->
-<H1 class="h3 mb-3">PAGINA PRINCIPAL</H1>
+<H1 class="h3 mb-3 ">PAGINA PRINCIPAL</H1>
 
        <div class="col-12 d-flex flex-column align-items-center flex-lg-row justify-content-lg-around">
 

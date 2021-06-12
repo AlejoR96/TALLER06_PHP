@@ -1,0 +1,16 @@
+//opcion para el sub menu del crud
+                    /*case 03:
+                        $subVista="menuCrudD.php";
+                        break;*/
+
+                        <?php
+public function __construct(
+    $hostname = null,
+    $username = null,
+    $password = null,
+    $database = null,
+    $port = null,
+    $socket = null
+
+
+    min 40:44 16:35

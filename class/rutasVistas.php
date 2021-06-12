@@ -15,7 +15,12 @@
                     break;
                 
                 case 2:
-                    $vista="productos.php";//falta la vista 
+                    $vista="productos.php";
+                    break;
+                
+                
+                case 3:
+                    $vista="crudDatos.php";
                     break;
                 
                 default:
