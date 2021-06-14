@@ -1,7 +1,8 @@
 <!--- Sub vista tabla-->
-<h2 class="h2 mb-3 text-center">USUARIOS REGISTRADOS</h2>
+<h2 class="h2 mb-3 text-center">USUARIOS REGISTRADOS EN LA BASE DATOS</h2>
 
-<!--- Inicio Tabla -->
+<!--- Tabla de la lista de la tabla ususarios // vista Crud Datos 
+boton listar usuarios -->
 <table class="table">
     <thead class="table-dark">
         <tr>

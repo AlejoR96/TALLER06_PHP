@@ -53,6 +53,10 @@
                 case 4:
                     $subVista="tablaR.php";
                     break;
+                   ///↓ la subvista del menu crud datos ↓ 
+                case 5:
+                    $subVista="formularioRegistrarU.php";
+                    break;
                 
                 default:
                     $subVista="mision.php";

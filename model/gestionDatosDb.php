@@ -12,10 +12,44 @@ class serviciosDatos extends  Conexion{
 
     public function obtenerUsuarios()
     {   //Realizar consultas a la tabla usuarios db tallerphp06
-        $consulta = $this ->conexionDB-> query('select * from usuarios');
+        $consulta = $this ->conexionDB-> query('SELECT * FROM usuarios');
+        $resultado = $consulta -> fetch_all(MYSQLI_ASSOC);
+        $this -> conexionDB ->close();
+        return $resultado;
+    }
+//----------------------------------------------------------------------------//
+    public function registrarUsuario($id,$nombre,$correo,$contrasena){
+
+        $sql = "INSERT INTO usuarios(id,nombre,correo,contrasena) VALUES('".$id."','".$nombre."','".$correo."','".$contrasena."')";
+        $resultado = $this -> conexionDB ->query($sql);
+        if ($resultado) {
+            $this -> conexionDB ->close();
+            return true;
+        }else{
+            $this -> conexionDB ->close();
+            return false;
+        }
+        
+    }
+
+//------------------------------------------------------------------------------------//
+
+    public function validarId ($id){
+        
+        $id_existe = false;
+        $consulta = $this ->conexionDB-> query("SELECT * FROM usuarios WHERE id='".$id_existe."'");
         $resultado = $consulta -> fetch_all(MYSQLI_ASSOC);
 
-        return $resultado;
+        if ($resultado) {
+            return true;
+
+        }else {
+            return false;
+        }
+
+
+
+
     }
     
 

@@ -9,6 +9,9 @@
             <li class="nav-item styleLi">
                 <a class="nav-link" href="../controllers/controllerListarU.php">Listar usuarios</a>
             </li>
+            <li class="nav-item styleLi">
+                <a class="nav-link" href="../controllers/controllerRutas.php?opc=3&subOpc=5">Registrar usuarios</a>
+            </li>
             
         </ul>
 
