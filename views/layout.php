@@ -23,6 +23,11 @@
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="../controllers/controllerRutas.php?opc=0">Home</a>
                         </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../controllers/controllerPrivada.php?opc=4">Privado</a>
+                        </li>
+
                         <li class="nav-item">
                             <a class="nav-link" href="../controllers/controllerRutas.php?opc=1">Nosotros</a>
                         </li>
