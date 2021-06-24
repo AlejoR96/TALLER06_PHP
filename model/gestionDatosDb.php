@@ -46,10 +46,6 @@ class serviciosDatos extends  Conexion{
         }else {
             return false;
         }
-
-
-
-
     }
     
 

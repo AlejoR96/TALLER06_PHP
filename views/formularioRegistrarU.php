@@ -25,7 +25,7 @@
 
     <div class="col-12">
         <label class="form-label">Contraseña</label>
-        <input type="password" class="form-control" name="contrasena" placeholder="xxxxxxx" value="<?php if(isset($contrasena)){echo $;}?>"  required>
+        <input type="password" class="form-control" name="contrasena" placeholder="xxxxxxx" value="<?php if(isset($contrasena)){echo $contrasena;}?>"  required>
     </div>
 
     <div class="col-12">
